@@ -741,7 +741,21 @@ document.write(`
 </section>
 <section id="penjelasan-fitur">
 <h3>Penjelasan Fitur<a class="headerlink" href="#penjelasan-fitur" title="Link to this heading">#</a></h3>
-<img src="asset/image/variable_table.png" width="75%" align="left" /><ul class="simple">
+<img src="_images/variable_table.png" width="75%" align="left" /><ul class="simple">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <li><p>parents, Kriteria Pekerjaan Orang Tua</p></li>
 </ul>
 <ul class="simple">
@@ -1606,7 +1620,7 @@ bisa dilanjutkan ke analisis berikutnya.</p>
 RD(\text Xi, \text Xj) = max (K-distance (Xj), distance (Xi,Xj))
 \]</div>
 <p>Ini didefinisikan sebagai jarak K maksimum Xj dan jarak antara Xi dan Xj. Ukuran jarak bersifat khusus untuk masalah (Euclidean, Manhattan, dll.)</p>
-<img src="asset/image/Ilustrasi jarak.webp" width="" align="" /><p>Dalam istilah awam, jika titik Xi terletak di dalam K-tetangga Xj, maka jarak jangkauannya adalah K-jarak Xj (garis biru), jika tidak, jarak jangkauannya adalah jarak antara Xi dan Xj (garis oranye).</p>
+<img src="_images/Ilustrasi jarak.webp" width="" align="" /><p>Dalam istilah awam, jika titik Xi terletak di dalam K-tetangga Xj, maka jarak jangkauannya adalah K-jarak Xj (garis biru), jika tidak, jarak jangkauannya adalah jarak antara Xi dan Xj (garis oranye).</p>
 <ol class="arabic simple" start="4">
 <li><p>KEPADATAN REACHABILITY LOKAL (LRD):</p></li>
 </ol>
@@ -2218,13 +2232,13 @@ Name: Class, Length: 2592, dtype: object
 <h2>Gaussian Naive Bayes<a class="headerlink" href="#gaussian-naive-bayes" title="Link to this heading">#</a></h2>
 <p>Gaussian Naive Bayes merupakan teknik klasisifkasi yang digunakan dalam machine learning dengan menggunakan metode probability dan distribusi gaussian atau distribusi normal. Pada distribusi gaussian tiap fitur data memiliki pengaruh yang independent dalam meprediksi target. Prediksi akhir didapat dari kombinasi predikasi seluruh parameter dengan probability dari target yang diklasifikasikan kedalam dua kelas. Klasifikasi akhirnya adalah hasil probability yang lebih tinggi dari group target.</p>
 <p>Tujuan metode ini adalah mengklasifikasikan probabilitas berdasarkan pembelajaran mesin atas probabilitas lain.</p>
-<img src="asset/image/rumus gaussian naive bayes.png" width="" align="" /><p>Di mana,
+<img src="_images/rumus gaussian naive bayes.png" width="" align="" /><p>Di mana,
 P(A|B) = peluang terjadinya kejadian A jika kejadian B telah terjadi. Perhatikan bahwa “|” mengacu pada “diberikan.”
 P(A) = peluang terjadinya kejadian A.
 P(B) = peluang terjadinya kejadian B.
 P(B|A) = peluang terjadinya kejadian B, jika diketahui kejadian A telah terjadi.</p>
 <p>Untuk menghitung likehoodnya sendiri kita bisa memakai rumus distribusi normal</p>
-<img src="asset/image/rumus distribusi normal.png" width="" align="" /><p>Dengan:
+<img src="_images/rumus distribusi normal.png" width="" align="" /><p>Dengan:
 f(x) = fungsi kontinu atau fungsi kepadatan peluang;
 σ = simpangan baku (standar deviasi);
 μ = nilai rata-rata;
@@ -2253,7 +2267,7 @@ e = Eksponen</p>
 <p>Pengertian KNN merupakan pendekatan yang digunakan untuk mengidentifikasi objek berdasarkan informasi tertentu yang merupakan jarak terdekat ke objek. Pada klasifikasi, KNN bekerja dengan menghitung  jarak antara data baru (data testing) dengan data yang sudah diketahui kelasnya (data training) menggunakan jarak euclidian.</p>
 <p>Penanganan missing data dengan KNN diawali dengan menentukan sejumlah tetangga terdekat atau observasi terdekat yang disimbolkan dengan K, kemudian menghitung jarak terkecil dari setiap observasi yang tidak mengandung missing data.</p>
 <p>KNN mengklasifikasikan data berdasarkan similarity atau kemiripan atau kedekatannya terhadap data lainnya.</p>
-<img src="asset/image/tahapan knn.png" width="" align="" /><p>Penjelasan setiap langkah dan proses dari gambar di atas:</p>
+<img src="_images/tahapan knn.png" width="" align="" /><p>Penjelasan setiap langkah dan proses dari gambar di atas:</p>
 <ol class="arabic simple">
 <li><p>Initial Data: Algoritma KNN melakukan klasifikasi dengan memproyeksikan data pembelajaran ke dalam ruang berdimensi banyak. Ruang ini dibagi menjadi bagian-bagian yang merepresentasikan kriteria data. Setiap data pembelajaran direpresentasikan sebagai titik-titik dalam ruang berdimensi banyak. Proses klasifikasi dilakukan dengan mencari titik terdekat dari data baru menggunakan formula jarak, seperti jarak Euclidean, jarak Hamming, Manhattan Distance, atau Minkowski Distance. Teknik pencarian tetangga terdekat disesuaikan dengan dimensi data, proyeksi, dan kemudahan implementasi oleh pengguna.</p></li>
 </ol>
@@ -2261,7 +2275,7 @@ e = Eksponen</p>
 <li><p>Calculate Distance: Euclidean distance (jarak Euclidean) adalah metrik yang digunakan untuk mengukur jarak antara dua titik dalam ruang Euclidean. Dalam konteks analisis data dan pembelajaran mesin, jarak Euclidean sering digunakan untuk mengukur kedekatan atau kesamaan antara dua vektor atau titik dalam ruang fitur.</p></li>
 </ol>
 <p>a. Euclidean Distance</p>
-<img src="asset/image/Euclidean Distance.png" width="50%" align="" /><p>Rumusnya sebagai berikut:</p>
+<img src="_images/Euclidean Distance.png" width="50%" align="" /><p>Rumusnya sebagai berikut:</p>
 <div class="math notranslate nohighlight">
 \[
 d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_i - q_i)^2}
@@ -2277,7 +2291,7 @@ d(P,Q) = \sqrt{(p_1 - q_1)^2 + (p_2 - q_2)^2 + \cdots + (p_n - q_n)^2}
 \[
 d(P,Q) = \sum_{i=1}^{n} \mid (p_i - q_i)^2 \mid
 \]</div>
-<img src="asset/image/Mahattan Distance.png" width="" align="" /><ol class="arabic simple" start="3">
+<img src="_images/Mahattan Distance.png" width="" align="" /><ol class="arabic simple" start="3">
 <li><p>Find Neightbour dan Voting On Label</p></li>
 </ol>
 <p>Setelah melakukan perhitungan jarak terhadap fitur ataupun node. Kemudian akan dilakukan perankingan jarak. mulai dari yang terdekat hingga yang terjauh.</p>
@@ -2310,7 +2324,7 @@ d(P,Q) = \sum_{i=1}^{n} \mid (p_i - q_i)^2 \mid
 <h1>ENSEMBLE LEARNING<a class="headerlink" href="#ensemble-learning" title="Link to this heading">#</a></h1>
 <section id="stacking-classifier">
 <h2>Stacking Classifier<a class="headerlink" href="#stacking-classifier" title="Link to this heading">#</a></h2>
-<img src="asset/image/stacking.png" width="" align="" /><section id="make-knn-model-with-n-3">
+<img src="_images/stacking.png" width="" align="" /><section id="make-knn-model-with-n-3">
 <h3>Make KNN model with n=3<a class="headerlink" href="#make-knn-model-with-n-3" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
